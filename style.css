@@ -1,3 +1,31 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+* {
+  /* temporary layout only */
+  border: 1px dotted red;
+}
+
 body {
-  background-color: bisque;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 200px auto;
+}
+
+.sidebar {
+  grid-column: 1;
+  grid-row: 1 -1;
+}
+
+.header {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.main {
+  grid-column: 2;
+  grid-row: 2;
 }
