@@ -24,10 +24,14 @@ body {
   color: aliceblue;
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: 40px auto; 
+  grid-template-columns: max-content auto; 
   grid-auto-rows: max-content;
   gap: 15px;
   padding: 15px;
+}
+
+.sep {
+  margin-top: 20px;
 }
 
 .header {
