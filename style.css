@@ -10,6 +10,7 @@
 
 body {
   height: 100vh;
+  background-color: rgb(228, 229, 236);
   display: grid;
   grid-template-columns: max-content auto;
   grid-template-rows: min-content auto;
@@ -36,12 +37,13 @@ body {
 
 .header {
   grid-area: header;
+  margin-bottom: 5px;
+  background-color: white;
 }
 
 .main {
   grid-area: main;
   display: grid;
-  background-color: rgb(228, 229, 236);
   grid-template-areas: 
     "projects announcements"
     "projects trending";
@@ -65,6 +67,7 @@ body {
   display: grid;
   grid-template-rows: min-content auto;
   margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .deck {
@@ -79,4 +82,11 @@ body {
   display: grid;
   background-color: white;
   border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26); 
+  box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26);
+}
+
+.shd {
+  -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26); 
+  box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26);
 }
