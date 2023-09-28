@@ -11,8 +11,8 @@
 body {
   height: 100vh;
   display: grid;
-  grid-template-columns: 200px auto;
-  grid-template-rows: 200px auto;
+  grid-template-columns: max-content auto;
+  grid-template-rows: min-content auto;
   grid-template-areas: 
     "sidebar header"
     "sidebar main";
@@ -40,4 +40,25 @@ body {
 
 .main {
   grid-area: main;
+  display: grid;
+  grid-template-areas: 
+    "projects announcements"
+    "projects trending";
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.announcements {
+  grid-area: announcements;
+}
+
+.trending {
+  grid-area: trending;
+}
+
+.titled {
+  display: grid;
+  grid-template-rows: min-content auto;
 }
