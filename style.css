@@ -3,6 +3,16 @@
   box-sizing: border-box;
 }
 
+/* Temporary layout stuff */
+/* Add the class (x) on to things when needed */
+.x
+{
+  border: 1px dotted red;
+}
+.x * {
+  border: 1px dotted blue;
+}
+
 body {
   height: 100vh;
   background-color: rgb(228, 229, 236);
@@ -55,8 +65,60 @@ body {
   grid-area: announcements;
 }
 
+.deck {
+  display: grid;
+  /* I want the flexibility here. */
+  /* more width = more project cards side-by-side */
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.deck .card {
+  display: grid;
+  grid-template-columns: auto min-content min-content min-content;
+  grid-template-rows: 2fr 5fr 3fr;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26); 
+  box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26);
+  padding: 20px 10px 10px 20px;
+}
+
 .trending {
   grid-area: trending;
+}
+
+.trending > .card {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+}
+
+.trend {
+  display: grid;
+  grid-template-areas: 
+    "icon uid"
+    "icon app-name";
+  grid-template-columns: 60px auto;
+  font-weight: 400;
+}
+
+.trend > .icon {
+  grid-area: icon;
+  place-self: center;
+}
+
+.trend > .uid {
+  grid-area: uid;
+  align-self: self-end;
+}
+
+.trend > app-name {
+  grid-area: app-name;
 }
 
 .titled {
@@ -68,32 +130,8 @@ body {
   font-weight: 700;
 }
 
-.deck {
-  display: grid;
-  /* I want the flexibility here. */
-  /* more width = more project cards side-by-side */
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-
-.card * {
-  border: 1px dotted red;
-}
-
-.card {
-  display: grid;
-  background-color: white;
-  border-radius: 5px;
-  -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26); 
-  box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26);
-  padding: 20px 10px 10px 20px;
-  display: grid;
-  grid-template-columns: auto min-content min-content min-content;
-  grid-template-rows: 2fr 5fr 3fr;
-}
-
 .card .card-title,
-.card .grey-normal {
+.card .full-width {
   grid-column: 1 / -1;
 }
 
