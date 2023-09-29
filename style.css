@@ -45,6 +45,9 @@ body {
   grid-area: header;
   margin-bottom: 5px;
   background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
 }
 
 .main {
