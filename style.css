@@ -140,9 +140,17 @@ body {
   align-self: self-end;
 }
 
-.grey-normal {
+.gr {
+  /* grey colour */
   color: rgb(155, 155, 155);
+}
+
+.wgt4 {
   font-weight: 400;
+}
+
+.grey-normal {
+  color: red;
 }
 
 .icon {
