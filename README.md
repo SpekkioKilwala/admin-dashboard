@@ -2,7 +2,6 @@
 Self-test/assignment for The Odin Project, focused on CSS.
 
 Stuff that still just needs to be done:
-- Announcements
 - Fonts
 - Icons
 - Move colour information into variables to try out different palettes

@@ -141,6 +141,26 @@ body {
   grid-area: announcements;
 }
 
+.announcements > .card {
+  display: grid;
+  gap: 10px;
+  padding: 25px;
+}
+
+.announcement-title {
+  font-size: 0.9rem;
+}
+
+.announcement-text {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.line-h {
+  border: none;
+  border-top: 2px solid rgb(233, 233, 233);
+}
+
 .deck {
   display: grid;
   /* I want the flexibility here. */
@@ -218,7 +238,7 @@ body {
 
 .gr {
   /* grey colour */
-  color: rgb(155, 155, 155);
+  color: rgb(122, 122, 122);
 }
 
 .wgt4 {
