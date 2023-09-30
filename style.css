@@ -7,6 +7,10 @@ body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.svg-icon {
+  width: 100px;
+}
+
 /* Temporary layout stuff */
 /* Add the class (x) on to things when needed */
 .x
