@@ -264,6 +264,10 @@ body {
   height: 50px;
 }
 
+.h30 {
+  height: 30px;
+}
+
 .shd {
   -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26); 
   box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26);
