@@ -3,6 +3,8 @@ Self-test/assignment for The Odin Project, focused on CSS.
 
 Stuff that still just needs to be done:
 - Header
+    - Bell box
+    - Welcome line
 - Announcements
 - Fonts
 - Icons

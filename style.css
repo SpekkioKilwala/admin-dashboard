@@ -69,6 +69,19 @@ body {
   padding-left: 12px;
 }
 
+.alert {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  align-items: center;
+  justify-content: center;
+  gap: 20px
+}
+
+.username {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
