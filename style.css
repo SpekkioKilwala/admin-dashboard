@@ -66,13 +66,13 @@ body {
   border: none;
   height: 1.4rem;
   border-radius: 0.7rem;
+  padding-left: 12px;
 }
 
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
-  
 }
 
 .blue-button {
