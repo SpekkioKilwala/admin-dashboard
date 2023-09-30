@@ -118,6 +118,7 @@ body {
   font-weight: 700;
   font-size: medium;
   height: 2rem;
+  border-style: none;
   border-radius: 1rem;
   cursor: pointer;
 }
