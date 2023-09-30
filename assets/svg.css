@@ -1,4 +1,5 @@
 .svg-icon {
-    fill: #FF0000;
-    width: 100px;
+    fill: #FFF;
+    /* width doesn't do anything on this file */
+    /* width: 100px; */
   }

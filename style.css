@@ -7,10 +7,6 @@ body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.svg-icon {
-  width: 100px;
-}
-
 /* Temporary layout stuff */
 /* Add the class (x) on to things when needed */
 .x
@@ -43,6 +39,7 @@ body {
   gap: 15px;
   padding: 15px 45px 15px 15px;
   font-weight: 700;
+  align-items: center;
 }
 
 .sep {
@@ -257,8 +254,14 @@ body {
   color: red;
 }
 
+/* now this is interesting, having the rule ONCE applies it to EVERY instance of that svg. */
+
 .icon {
   place-self: center;
+}
+
+.h50 {
+  height: 50px;
 }
 
 .shd {
