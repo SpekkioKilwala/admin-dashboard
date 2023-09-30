@@ -250,10 +250,6 @@ body {
   font-weight: 400;
 }
 
-.grey-normal {
-  color: red;
-}
-
 /* now this is interesting, having the rule ONCE applies it to EVERY instance of that svg. */
 
 .icon {
