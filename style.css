@@ -178,6 +178,11 @@ body {
   display: grid;
   grid-template-columns: auto min-content min-content min-content;
   grid-template-rows: 2fr 5fr 3fr;
+  column-gap: 10px;
+}
+
+.deck .card .icon {
+  padding-right: 15px;
 }
 
 .card {
