@@ -82,6 +82,28 @@ body {
   white-space: nowrap;
 }
 
+.greet {
+  display: grid;
+  grid-template-columns: min-content auto;
+  align-items: center;
+  font-weight: 700;
+  column-gap: 10px;
+  row-gap: 5px;
+  padding: 5px;
+}
+
+.greet .icon-huge {
+  grid-row: span 2;
+}
+
+.greet .greet-message {
+  font-size: smaller;
+}
+
+.greet .username-full {
+  font-size: large;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
