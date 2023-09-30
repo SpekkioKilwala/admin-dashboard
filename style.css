@@ -264,8 +264,16 @@ body {
   height: 50px;
 }
 
+.h40 {
+  height: 40px;
+}
+
 .h30 {
   height: 30px;
+}
+
+.h20 {
+  height: 20px;
 }
 
 .shd {
