@@ -9,7 +9,6 @@ Stuff that still just needs to be done:
 - Move colour information into variables to try out different palettes
 
 Backtrack points:
-- Centering text on buttons
 - Correct relative text size
 - adjusting the card layout for screen size
 - The yellow side-stripe on the cards

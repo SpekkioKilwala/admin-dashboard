@@ -108,14 +108,18 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
+  align-items: center;
 }
 
 .blue-button {
   background-color: deepskyblue;
   color: white;
   text-align: center;
+  font-weight: 700;
+  font-size: medium;
   height: 2rem;
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 .main {
