@@ -201,7 +201,7 @@ body {
 .trending > .card {
   display: grid;
   grid-auto-flow: row;
-  grid-template-rows: repeat(4, 3fr) 1fr; 
+  grid-template-rows: repeat(4, 7fr) 3fr; 
   /* I would use auto-rows but I need the */
   /* attribution link at the end of it all, */
   /* INSIDE the card. And I don't want to mess */
@@ -233,7 +233,9 @@ body {
   grid-area: app-name;
 }
 
-a {
+.trending > .card > a {
+  text-align: end;
+  align-self: self-end;
   text-decoration: none;
   color: rgb(122, 122, 122);
   font-size: 12px;
