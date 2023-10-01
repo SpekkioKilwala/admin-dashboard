@@ -196,6 +196,7 @@ body {
   box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26);
   padding: 20px 10px 10px 20px;
   position: relative;
+  overflow: hidden;
 }
 
 .deck .card::before {
