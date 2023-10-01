@@ -2,8 +2,7 @@
 Self-test/assignment for The Odin Project, focused on CSS.
 
 Stuff that still just needs to be done:
-- Fonts
-- Icons
+- Icons (personal)
 - Move colour information into variables to try out different palettes
 
 Backtrack points:
