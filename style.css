@@ -53,7 +53,7 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 3fr 2fr;
-  padding: 10px;
+  padding: 20px 40px;
   gap: 10px;
 }
 
@@ -90,10 +90,10 @@ body {
 .greet {
   display: grid;
   grid-template-columns: min-content auto;
-  align-items: center;
+  /* align-items: center; */
   font-weight: 700;
   column-gap: 10px;
-  row-gap: 5px;
+  row-gap: 0px;
   padding: 5px;
 }
 
@@ -103,6 +103,7 @@ body {
 
 .greet .greet-message {
   font-size: smaller;
+  align-self: self-end;
 }
 
 .greet .username-full {
