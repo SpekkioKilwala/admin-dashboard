@@ -195,6 +195,16 @@ body {
   -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26); 
   box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.26);
   padding: 20px 10px 10px 20px;
+  position: relative;
+}
+
+.deck .card::before {
+  border-left: 6px solid rgb(245, 200, 0);
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
 }
 
 .trending {
