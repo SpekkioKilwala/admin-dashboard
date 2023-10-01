@@ -183,6 +183,7 @@ body {
   grid-template-columns: auto min-content min-content min-content;
   grid-template-rows: 2fr 5fr 3fr;
   column-gap: 10px;
+  max-height: 220px;
 }
 
 .deck .card .icon {
